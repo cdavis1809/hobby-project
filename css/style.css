@@ -9,9 +9,12 @@ body {
 .container {
   width: 60%;
   background-color: rgba(255, 255, 255, 0.4);
-  padding: 20px;
+  padding: 60px;
   border-radius: 20px;
   margin: 0 auto;
+}
+.top-button {
+  padding: 40px;
 }
 button {
   margin: 0 auto;
@@ -37,14 +40,15 @@ h1 {
   letter-spacing: 2px;
   font-weight: 900px;
   color: #062d2b;
-  font-size: 40px;
+  font-size: 80px;
+  margin-bottom: 0;
 }
 h2 {
   text-align: center;
   letter-spacing: 2px;
   font-weight: 600px;
   color: #062d2b;
-  font-size: 20px;
+  font-size: 30px;
 }
 .firstImage img {
   display: block;
@@ -55,7 +59,7 @@ h2 {
 }
 .firstImage:hover {
   opacity: 0.8;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 .imageGallery {
   display: grid;
@@ -69,7 +73,7 @@ h2 {
   border-radius: 15px;
 }
 .imageGallery img:hover {
-  transform: scale(2);
+  transform: scale(1.2);
 }
 p {
   max-width: 90%;
@@ -124,4 +128,7 @@ footer {
 }
 .dark button:hover {
   background-color: #23c6be;
+}
+.bottom-button {
+  padding: 30px;
 }
